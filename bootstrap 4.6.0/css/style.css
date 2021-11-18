@@ -19,7 +19,7 @@
 	text-decoration: none;
 	color: white;
 }
-.active {
+.actives {
 	background-color: #3c4248;
 }
 .navbody {
@@ -37,4 +37,7 @@
 }
 .table-six {
 	border: 2px solid #e9ecef;
+}
+.body {
+	background-color: #3c4248;
 }

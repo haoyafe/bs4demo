@@ -18,7 +18,7 @@
 				<a class="navbar-brand" href="index.html">某管理系统</a>
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
 						 aria-expanded="false">用户操作</a>
 						<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
 							<a class="dropdown-item" href="#">个人中心</a>
@@ -31,10 +31,10 @@
 		</div>
 
 		<!-- 左侧导航栏 -->
-		<div class="navstyle pt-3 overflow-auto">
+		<div class="navstyle pt-3">
 			<ul class="nav flex-column">
 				<li>
-					<a class="nav-link text-white active" href="index.html">首页</a>
+					<a class="nav-link text-white actives" href="index.html">首页</a>
 				</li>
 				<li>
 					<a class="nav-link text-white" href="user.html">用户中心</a>
@@ -52,15 +52,17 @@
 		</div>
 
 		<!-- 右侧内容 -->
-		<div class="navbody">
+		<div class="navbody overflow-auto">
 			<nav aria-label="breadcrumb">
 				<ol class="breadcrumb">
-					<li class="breadcrumb-item" aria-current="page">首页</li>
+					<li class="breadcrumb-item active" aria-current="page">首页</li>
 				</ol>
 			</nav>
 
 			<!-- 卡片 -->
-			<div class="row m-0">
+			<div class="container-fluid"><!-- </div> -->
+			<!-- <div class="position-fixed overflow-auto"></div> -->
+			<div class="row m-0 overflow-auto">
 				<div class="col-lg-4 mb-2">
 					<div class="card text-white bg-success">
 						<div class="card-body">
@@ -85,6 +87,7 @@
 						</div>
 					</div>
 				</div>
+			</div>
 			</div>
 		</div>
 	</body>
