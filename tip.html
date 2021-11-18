@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery.slim.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<title>某管理系统</title>
+
+	</head>
+	<body>
+		<!-- 头部导航栏 -->
+		<div class="bd-example">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+				<a class="navbar-brand" href="#">某管理系统</a>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+						 aria-expanded="false">用户操作</a>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+							<a class="dropdown-item" href="#">个人中心</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">退出</a>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<!-- 左侧导航栏 -->
+		<div class="navstyle pt-3 overflow-auto">
+			<ul class="nav flex-column">
+				<li>
+					<a class="nav-link text-white" href="index.html">首页</a>
+				</li>
+				<li>
+					<a class="nav-link text-white" href="user.html">用户中心</a>
+				</li>
+				<li>
+					<a class="nav-link text-white" href="search.html">数据查询</a>
+				</li>
+				<li>
+					<a class="nav-link text-white" href="data.html">数据面板</a>
+				</li>
+				<li>
+					<a class="nav-link text-white active" href="tip.html">提醒事项<span class="badge badge-pill badge-warning ml-3">4</span></a>
+				</li>
+			</ul>
+		</div>
+
+		<!-- 右侧内容 -->
+		<div class="navbody">
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item" aria-current="page">提醒事项</li>
+				</ol>
+			</nav>
+			<ul class="list-group list-group-flush ml-3">
+				<li class="list-group-item">我需要操作的事项1</li>
+				<li class="list-group-item">我需要操作的事项2</li>
+				<li class="list-group-item">我需要操作的事项3</li>
+				<li class="list-group-item">我需要操作的事项4</li>
+			</ul>
+		</div>
+	</body>
+</html>
