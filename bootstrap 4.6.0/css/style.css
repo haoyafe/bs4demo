@@ -1,11 +1,11 @@
 .navstyle {
-	position: fixed;
+	position: fixed;  /* 固定定位 */
 	background-color: #283643;
 	width: 12rem;
 	top: 3.5rem;
 	bottom: 0;
-	margin-bottom: 0;
-	padding-top: 1rem;
+	margin-bottom: 0;  /* 外边距   下*/
+	padding-top: 1rem;   /* 内边距   上*/
 	height: 100%;
 }
 .navstyle a:hover {
@@ -15,8 +15,9 @@
 	padding-left: 2rem;
 	padding-right: 2rem;
 	height: 3rem;
+	line-height: 3rem;
 	display: block;
-	text-decoration: none;
+	text-decoration: none;  /* 清除默认下划线 */
 	color: white;
 }
 .actives {

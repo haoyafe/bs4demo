@@ -6,16 +6,14 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/style.css">
-		<script src="js/jquery.slim.min.js"></script>
-		<script src="js/bootstrap.bundle.min.js"></script>
 		<title>某管理系统</title>
 
 	</head>
 	<body>
 		<!-- 头部导航栏 -->
 		<div class="bd-example">
-			<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-				<a class="navbar-brand" href="index.html">某管理系统</a>
+			<nav class="navbar navbar-expand navbar-dark bg-primary">
+				<a class="navbar-brand" href="#">某管理系统</a>
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
@@ -23,7 +21,7 @@
 						<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
 							<a class="dropdown-item" href="#">个人中心</a>
 							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="#">退出</a>
+							<a class="dropdown-item" href="#">退出</a>  <!-- 下拉菜单点击事件 -->
 						</div>
 					</li>
 				</ul>
@@ -55,40 +53,41 @@
 		<div class="navbody overflow-auto">
 			<nav aria-label="breadcrumb">
 				<ol class="breadcrumb">
-					<li class="breadcrumb-item active" aria-current="page">首页</li>
+					<li class="breadcrumb-item active" aria-current="page">首页</li><!-- 表示从首页开始的每一级 -->
 				</ol>
 			</nav>
 
 			<!-- 卡片 -->
-			<div class="container-fluid"><!-- </div> -->
-			<!-- <div class="position-fixed overflow-auto"></div> -->
-			<div class="row m-0 overflow-auto">
-				<div class="col-lg-4 mb-2">
-					<div class="card text-white bg-success">
-						<div class="card-body">
-							<h5 class="card-light">当前用户总数</h5>
-							<p class="card-text display-3">120,123</p>
+			<div class="container-fluid">  <!-- 100%宽度 -->
+				<div class="row overflow-auto">
+					<div class="col-lg-4 mb-2">
+						<div class="card card-light text-white bg-success">
+							<div class="card-body">
+								<h5>当前用户总数</h5>
+								<p class="card-text display-3">120,123</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 mb-2">
+						<div class="card card-light text-white bg-primary">
+							<div class="card-body">
+								<h5>每日平均活跃用户数</h5>
+								<p class="card-text display-3">1,123</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 mb-2">
+						<div class="card card-light text-white bg-warning">
+							<div class="card-body">
+								<h5>每日平均访问次数</h5>
+								<p class="card-text display-3">3,123</p>  <!-- 文本大字风格 -->
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 mb-2">
-					<div class="card text-white bg-primary">
-						<div class="card-body">
-							<h5 class="card-light">每日平均活跃用户数</h5>
-							<p class="card-text display-3">1,123</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 mb-2">
-					<div class="card text-white bg-warning">
-						<div class="card-body">
-							<h5 class="card-light">每日平均访问次数</h5>
-							<p class="card-text display-3">3,123</p>
-						</div>
-					</div>
-				</div>
-			</div>
 			</div>
 		</div>
+		<script src="js/jquery.slim.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
 	</body>
 </html>

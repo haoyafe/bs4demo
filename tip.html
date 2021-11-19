@@ -6,15 +6,13 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/style.css">
-		<script src="js/jquery.slim.min.js"></script>
-		<script src="js/bootstrap.bundle.min.js"></script>
 		<title>某管理系统</title>
 
 	</head>
 	<body>
 		<!-- 头部导航栏 -->
 		<div class="bd-example">
-			<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+			<nav class="navbar navbar-expand navbar-dark bg-primary">
 				<a class="navbar-brand" href="#">某管理系统</a>
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item dropdown">
@@ -53,19 +51,21 @@
 
 		<!-- 右侧内容 -->
 		<div class="container-fluid">
-		<div class="navbody overflow-auto">
-			<nav aria-label="breadcrumb">
-				<ol class="breadcrumb">
-					<li class="breadcrumb-item active" aria-current="page">提醒事项</li>
-				</ol>
-			</nav>
-			<ul class="list-group list-group-flush ml-3">
-				<li class="list-group-item">我需要操作的事项1</li>
-				<li class="list-group-item">我需要操作的事项2</li>
-				<li class="list-group-item">我需要操作的事项3</li>
-				<li class="list-group-item">我需要操作的事项4</li>
-			</ul>
+			<div class="navbody overflow-auto">
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item active" aria-current="page">提醒事项</li>
+					</ol>
+				</nav>
+				<ul class="list-group list-group-flush ml-3 mr-3"><!-- 移除部分边框以及圆角，从而产生边缘贴齐的列表组 -->
+					<li class="list-group-item">我需要操作的事项1</li>
+					<li class="list-group-item">我需要操作的事项2</li>
+					<li class="list-group-item">我需要操作的事项3</li>
+					<li class="list-group-item">我需要操作的事项4</li>
+				</ul>
+			</div>
 		</div>
-		</div>
+		<script src="js/jquery.slim.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
 	</body>
 </html>
